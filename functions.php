@@ -11,14 +11,16 @@ function mysharelink($content) {
                	$twitterUser = 'MichiMunich';
                	$twitterURL = 'https://twitter.com/intent/tweet?text='.$postTitle.'&amp;url='.$postURL.'&amp;via='.$twitterUser;
                	$facebookURL = 'https://www.facebook.com/sharer/sharer.php?u='.$postURL;
+                $pocketURL = 'https://getpocket.com/save?url='.$postURL;
                 $whatsappURL = 'whatsapp://send?text='.$postTitle.'%20'.$postURL;
                 $threemaURL = 'threema://compose?text='.$postTitle.'%20'.$postURL;
                 $telegramURL = 'https://telegram.me/share/url?url='.$postURL;
 
                 // Add sharing link at the end of posts
                 $content .= '<h3 class="sharelink_head">Teilen auf:</h3>';
-                $content .= '<a class="sharelink_twitter" href='.$twitterURL.' target="blank" rel="nofollow">Twitter</a>';
-               	$content .= '<a class="sharelink_facebook" href='.$facebookURL.' target="blank" rel="nofollow">Facebook</a>';
+                $content .= '<a class="sharelink_twitter" href='.$twitterURL.' target="_blank" rel="noopener nofollow">Twitter</a>';
+               	$content .= '<a class="sharelink_facebook" href='.$facebookURL.' target="_blank" rel="noopener nofollow">Facebook</a>';
+                $content .= '<a class="sharelink_pocket" href='.$pocketURL.' rel="nofollow">Pocket</a>';
                 $content .= '<a class="sharelink_whatsapp" href='.$whatsappURL.'>WhatsApp</a>';
                 $content .= '<a class="sharelink_telegram" href='.$telegramURL.' rel="nofollow">Telegram</a>';
                	if ( wp_is_mobile() ) {
