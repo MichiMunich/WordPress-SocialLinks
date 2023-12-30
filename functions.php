@@ -18,7 +18,7 @@ function mysharelink($content) {
 
                 // Add sharing link at the end of posts
                 $content .= '<h3 class="sharelink_head">Teilen auf:</h3>';
-                $content .= '<a class="sharelink_twitter" href='.$twitterURL.' target="_blank" rel="noopener nofollow">Twitter</a>';
+                $content .= '<a class="sharelink_twitter" href='.$twitterURL.' target="_blank" rel="noopener nofollow">X</a>';
                	$content .= '<a class="sharelink_facebook" href='.$facebookURL.' target="_blank" rel="noopener nofollow">Facebook</a>';
                 $content .= '<a class="sharelink_pocket" href='.$pocketURL.' rel="nofollow">Pocket</a>';
                 $content .= '<a class="sharelink_whatsapp" href='.$whatsappURL.'>WhatsApp</a>';
