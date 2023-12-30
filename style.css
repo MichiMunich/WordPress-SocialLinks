@@ -1,34 +1,40 @@
 .sharelink_twitter, a.sharelink_twitter:hover {
-	color: #00aced; 
-	border-color: #00aced;
+	color: #14171A !important; 
+	border-color: #14171A !important;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .sharelink_facebook, a.sharelink_facebook:hover {
-	color: #3b5998; 
-	border-color: #3b5998;
+	color: #3b5998 !important; 
+	border-color: #3b5998 !important;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .sharelink_whatsapp, a.sharelink_whatsapp:hover {
-	color: #34AF23; 
-	border-color: #34AF23;
+	color: #34AF23 !important; 
+	border-color: #34AF23 !important;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .sharelink_telegram, a.sharelink_telegram:hover {
-        color: #0088cc;
-        border-color: #0088cc;
+        color: #0088cc !important;
+        border-color: #0088cc !important;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .sharelink_threema, a.sharelink_threema:hover {
-	color: #505150; 
-	border-color: #505150;
+	color: #505150 !important; 
+	border-color: #505150 !important;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
-.sharelink_twitter, .sharelink_facebook, .sharelink_whatsapp, .sharelink_telegram, .sharelink_threema {
+.sharelink_pocket, a.sharelink_pocket:hover {
+  	color: #ee4056 !important;
+  	border-color: #ee4056 !important;
+  	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.sharelink_twitter, .sharelink_facebook, .sharelink_whatsapp, .sharelink_telegram, .sharelink_threema, .sharelink_pocket {
 	font-size: 14px; 
 	font-family: Montserrat, "Helvetica Neue", sans-serif; 
 	font-weight: bold; 
@@ -57,4 +63,8 @@ h3.sharelink_head {
 	font-weight: bold; 
 	padding-top: 20px; 
 	border-top: 1px solid #cccccc;
+}
+
+a.sharelink_twitter, a.sharelink_facebook, a.sharelink_whatsapp, a.sharelink_telegram, a.sharelink_pocket, a.sharelink_threema {
+  	box-shadow: none;
 }
