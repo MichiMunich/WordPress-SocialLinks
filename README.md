@@ -1,6 +1,6 @@
 # Overview
 Social Sharing Links for WordPress:<br>
-Add Twitter, Facebook, WhatsApp, Telegram and Threema via functions.php to your posts<br>
+Add X, Facebook, WhatsApp, Pocket, Telegram and Threema via functions.php to your posts<br>
 <br>
 ./functions.php:<br>
 <ul>
